@@ -1,0 +1,102 @@
+#focus.active,
+#rest.active{
+    background-color:rgb(251, 235, 229);
+    color:black;
+    border:2px solid rgb(251, 235, 229);
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height:100vh;
+}
+
+button{
+    transition: all 0.2s ease;
+}
+
+#container{
+    margin:auto;
+}
+
+#heading{
+    color:rgb(251, 235, 229);
+    font-weight:bold;
+    font-size:45px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+
+#count{
+     color:rgb(251, 235, 229);
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+}
+
+#modes{
+    display : flex;
+    justify-content: center;
+    gap :20px;
+}
+
+.mode-btn{
+    background-color:transparent;
+    color:rgb(251, 235, 229);
+    font-size:16px;
+    border : 2px solid rgb(251, 235, 229);
+    border-radius: 50px;
+    padding : 10px;
+}
+
+#timer{
+    font-size:96px;
+    text-align:center;
+    margin:40px 0px;
+    color:rgb(251, 235, 229);
+}
+
+#actions{
+    display : flex;
+    justify-content: center;
+    gap :20px;
+}
+
+.action-btn{
+    background-color:rgb(251, 235, 229);
+    font-size:16px;
+    border : 2px solid rgb(251, 235, 229);
+    border-radius: 50px;
+    padding : 10px;
+}
+
+.mode-btn:hover{
+    background-color:rgb(251, 235, 229);
+    color:black;
+    transform:scale(1.05);
+}
+
+.action-btn:hover{
+    background-color:transparent;
+    color:rgb(251, 235, 229);
+    transform:scale(1.05);
+}
+
+#msg{
+    color:rgb(251, 235, 229);
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+}
+
+.glow{
+    transform: scale(1.1);
+    transition: all 1s ease;
+    text-shadow: 0 0 8px rgba(251, 235, 229, 0.8);
+}
