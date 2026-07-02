@@ -22,3 +22,5 @@ A responsive Pomodoro timer built using HTML, CSS and JavaScript to help users s
 ![Pomodoro Timer](pomodoro.screenshot.png)
 
 ## Live Demo
+
+https://mahiyasingh195.github.io/pomodoro-timer/
